@@ -1,0 +1,10 @@
+{{ define "title" }}
+{{ .Title }}
+{{ end }}
+
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+{{ partial "troubleshooting/hero.html" . }}
+{{ partial "troubleshooting/post-list.html" . }}
+{{ partial "footer.html" . }}
+{{ end }}

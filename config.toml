@@ -153,6 +153,11 @@ name = "Knowledge Base"
 url = "/kb"
 weight = 1
 
+[[menu.main]]
+name = "Troubleshooting"
+url = "/troubleshooting"
+weight = 1
+
 [mediaTypes."text/netlify"]
 delimiter = ""
 
